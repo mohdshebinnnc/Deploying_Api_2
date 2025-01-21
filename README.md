@@ -30,6 +30,8 @@ Add the following line at the top of your main file to load the environment vari
 require('dotenv').config();
 ```
 
+used in Node.js applications to load environment variables defined in a .env file into process.env.
+
 ---
 
 ### **3. Define the Environment Variables**
@@ -39,6 +41,7 @@ IS_ADMIN=true
 ```
 
 You can modify the value to `true` or `false` depending on your requirements.
+
 
 ---
 
